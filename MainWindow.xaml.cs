@@ -124,13 +124,13 @@ namespace Part3
 			listBox.Items.Clear();
 		}
 
-		private void searchRecipe_forQuan_method(object sender, RoutedEventArgs e)
+		private void searchRecipe_forQuan_method(object sender, RoutedEventArgs e)//this event method is for the button search inside the quantity window to search the recipename
 		{
 			 findRecipe = SearchrecipeName.Text.ToLower();
 
 			foreach (var item in store)
 			{
-				if (item.RecipeName.Equals(findRecipe))
+				if (item.RecipeName.Equals(findRecipe))//looks for a match between the name entered to the name stored
 				{
 					MessageBox.Show("found");
 					quantiyChange_grid.Visibility = Visibility.Visible;
