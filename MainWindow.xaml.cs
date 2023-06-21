@@ -108,7 +108,7 @@ namespace Part3
 
 		}
 
-		private void stopAll(object sender, RoutedEventArgs e)
+		private void stopAll(object sender, RoutedEventArgs e)//this event method is for the bye button
 		{
 			GoodBye.Visibility = Visibility.Visible;
 			MainEvents.Visibility = Visibility.Visible;
