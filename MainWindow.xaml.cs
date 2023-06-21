@@ -183,7 +183,7 @@ namespace Part3
 
 		}
 
-		private void deleted_method(object sender, RoutedEventArgs e)
+		private void deleted_method(object sender, RoutedEventArgs e)//this event method is deleting all value stored
 		{
 			store.Clear();
 			listBox.Items.Clear();
