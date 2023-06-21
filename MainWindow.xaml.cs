@@ -154,7 +154,7 @@ namespace Part3
 			//Controls.Add(mybox);
 		}
 
-		private void restarted_method(object sender, RoutedEventArgs e)
+		private void restarted_method(object sender, RoutedEventArgs e)//event method is for the restarting all vaalues changed
 		{
 			foreach (var item in store)
 			{
