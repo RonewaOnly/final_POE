@@ -229,7 +229,7 @@ namespace Part3
 
 		}
 
-		private void RecipeLists(object sender, RoutedEventArgs e)//this method is for enter the details of the recipe
+		private void RecipeLists(object sender, RoutedEventArgs e)//this methods is for enter the details of the recipe
 		{
 
 
