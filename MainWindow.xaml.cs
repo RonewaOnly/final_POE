@@ -287,7 +287,7 @@ namespace Part3
 
 
 
-		public void display()
+		public void display()//showcases all Recipe details stored
 		{
 
 			foreach (var item in store)
