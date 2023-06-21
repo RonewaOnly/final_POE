@@ -21,7 +21,7 @@ namespace Part3
 	public partial class MainWindow : Window
 	{
 		public static List<inputStorage> store = new List<inputStorage>();//this is generic list that takes in the input from the user-input
-		private string recipename = "";
+		private string recipename = "";//Those are variables that will be used to search and display in the below methods
 		private int ingredTime = 0;
 		public string findRecipe="";
 		double factor = 0;
