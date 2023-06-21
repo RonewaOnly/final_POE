@@ -117,9 +117,9 @@ namespace Part3
 			QuantityChanging.Visibility = Visibility.Collapsed;
 			Restarted.Visibility = Visibility.Collapsed;
 			cleaned.Visibility = Visibility.Collapsed;
-			if (Bye.IsPressed)
+			if (Bye.IsPressed)//this condition reads when the button inside stopall window
 			{
-				Close();
+				Close();//this stops the application
 			}
 			listBox.Items.Clear();
 		}
