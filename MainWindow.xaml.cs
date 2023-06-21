@@ -84,7 +84,7 @@ namespace Part3
 			listBox.Items.Clear();
 		}
 
-		private void Restart_method(object sender, RoutedEventArgs e)
+		private void Restart_method(object sender, RoutedEventArgs e)//the event method for the restart button
 		{
 			Restarted.Visibility = Visibility.Visible;
 			MainEvents.Visibility = Visibility.Visible;
