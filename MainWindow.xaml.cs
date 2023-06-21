@@ -72,7 +72,7 @@ namespace Part3
 			//listBox.Items.Clear();
 		}
 
-		private void QuantiyChange_method(object sender, RoutedEventArgs e)
+		private void QuantiyChange_method(object sender, RoutedEventArgs e)//the event method for quantity button for the quantity window/grid
 		{
 			QuantityChanging.Visibility = Visibility.Visible;
 			MainEvents.Visibility = Visibility.Visible;
