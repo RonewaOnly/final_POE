@@ -36,7 +36,7 @@ namespace Part3
 
 
 
-		private void gridding(object sender, RoutedEventArgs e)
+		private void gridding(object sender, RoutedEventArgs e)//this method is used for the main page to display the message on load of page/grid
 		{
 			quoting.Content = "This app is for storing your recipes and displaying";
 
