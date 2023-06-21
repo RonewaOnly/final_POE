@@ -96,7 +96,7 @@ namespace Part3
 			listBox.Items.Clear();
 		}
 
-		private void CleanAll_method(object sender, RoutedEventArgs e)
+		private void CleanAll_method(object sender, RoutedEventArgs e)//the event method for the clear button
 		{
 			cleaned.Visibility = Visibility.Visible;
 			MainEvents.Visibility = Visibility.Visible;
