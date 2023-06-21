@@ -305,7 +305,7 @@ namespace Part3
 		
 		}
 
-		private void changingQuans(object sender, RoutedEventArgs e)
+		private void changingQuans(object sender, RoutedEventArgs e)//changes quantites by the factor chosen
 		{
 			 factor = Convert.ToDouble(factors.Text);
 			foreach (var item in store)
