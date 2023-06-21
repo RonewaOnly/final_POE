@@ -20,7 +20,7 @@ namespace Part3
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		public static List<inputStorage> store = new List<inputStorage>();
+		public static List<inputStorage> store = new List<inputStorage>();//this is generic list that takes in the input from the user-input
 		private string recipename = "";
 		private int ingredTime = 0;
 		public string findRecipe="";
