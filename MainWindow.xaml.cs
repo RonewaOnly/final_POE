@@ -57,7 +57,7 @@ namespace Part3
 
 		}
 
-		private void viewRecipe_method(object sender, RoutedEventArgs e)
+		private void viewRecipe_method(object sender, RoutedEventArgs e)//this method again is an event method used to read an action of the viewrecipe button
 		{
 			viewRecipe.Visibility = Visibility.Visible;
 			MainEvents.Visibility = Visibility.Collapsed;
