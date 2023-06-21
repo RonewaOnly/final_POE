@@ -43,7 +43,7 @@ namespace Part3
 		}
 
 
-		private void EnterRecipe_method(object sender, RoutedEventArgs e)
+		private void EnterRecipe_method(object sender, RoutedEventArgs e)//this method is an event for the button in the list form/page in the wpf so when enterRecpie button is pressed it will read it and open the enterrecipe window/grid
 		{
 
 			EnteingRecipe.Visibility = Visibility.Visible;
