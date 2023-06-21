@@ -67,7 +67,7 @@ namespace Part3
 			cleaned.Visibility = Visibility.Collapsed;
 			GoodBye.Visibility = Visibility.Collapsed;
 
-			display();
+			display();//method that displays the recipe details
 			stepsListingChecked();
 			//listBox.Items.Clear();
 		}
